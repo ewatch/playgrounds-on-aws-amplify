@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+ <playground-list />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PlaygroundList from './components/PlaygroundList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PlaygroundList
   }
 }
 </script>
@@ -22,5 +21,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
 }
 </style>
